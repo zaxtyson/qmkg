@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:background="#FFFEFE">
+
+		<ImageView
+			android:background="@drawable/zt_logo"
+			android:layout_gravity="center"
+			android:layout_height="150dp"
+			android:layout_width="150dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="作者:ZaxTyson"
+			android:layout_gravity="center"
+			android:layout_margin="10dp"
+			android:typeface="serif"
+			android:textStyle="bold"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="开源许可:LGPL-3.0"
+			android:layout_gravity="center"
+			android:typeface="serif"
+			android:textStyle="bold"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="http://github.com/zaxtyson/qmdg"
+			android:layout_gravity="center"
+			android:layout_margin="10dp"
+			android:typeface="serif"
+			android:textColor="#A5A5A5"
+			android:textStyle="italic"
+			android:textIsSelectable="true"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="哦，我亲爱的伙计！欢迎使用这个APP，知道吗，这玩意可以帮你导出全民k歌的音乐！是的，没错，去它丫的会员！这可太贵了，我向圣母玛利亚发誓，我可从来没看过这么贵的会员，这这这简直比马化腾还狠呐！但是啊，我的伙计，我可没法保证这玩意能完美地在你的机子上运行。有时候，是的，你知道，有时候它可能像隔壁苏珊阿姨家的蠢驴一样，分不清东南西北！哦，这可太糟糕了！如果你想让它聪明点，你可以向我反馈，我一定用靴子会狠狠地踢它的屁股!"
+			android:padding="20dp"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+	</LinearLayout>
+
+</ScrollView>
+

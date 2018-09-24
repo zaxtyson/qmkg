@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+    android:layout="@layout/preference_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="设置">
+    <PreferenceCategory
+        android:layout="@layout/preference_category_widget"
+        android:title="下载选项">
+
+		<EditTextPreference
+			android:key="save_path"
+			android:layout="@layout/preference_item"
+			android:title="下载目录"
+			android:summary="下载的音乐和封面文件将保存于此"
+			android:defaultValue="/Music"
+			android:dialogTitle="设置下载路径">
+		</EditTextPreference>
+		
+		<CheckBoxPreference
+			android:widgetLayout="@layout/switch_layout"
+            android:layout="@layout/preference_item"
+            android:title="下载封面"
+            android:key="down_cover"
+            android:summaryOn="下载音乐和歌曲封面图片"
+            android:summaryOff="只下载音乐文件"
+            android:defaultValue="false">
+		</CheckBoxPreference>
+
+        <CheckBoxPreference
+			android:widgetLayout="@layout/switch_layout"
+            android:layout="@layout/preference_item"
+            android:title="提示音"
+			android:key="allowed_alarm"
+            android:summaryOff="下载完成不提示"
+            android:summaryOn="下载完成时发出提示音"
+            android:defaultValue="true">
+		</CheckBoxPreference>
+		
+		<CheckBoxPreference
+			android:widgetLayout="@layout/switch_layout"
+            android:layout="@layout/preference_item"
+            android:title="振动"
+			android:key="allowed_vibrate"
+            android:summaryOff="下载完成不振动"
+            android:summaryOn="下载完成时振动手机"
+            android:defaultValue="true">
+		</CheckBoxPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/preference_category_widget"
+        android:title="其它">
+        <Preference
+            android:layout="@layout/preference_item"
+			android:key="about"
+            android:title="关于">
+        </Preference>
+		
+		<Preference
+            android:layout="@layout/preference_item"
+			android:key="feedback"
+            android:title="反馈"
+			android:summary="(,,•₃•,,)你有什么想和我说吗">
+        </Preference>
+		
+        <Preference
+            android:layout="@layout/preference_item"
+            android:title="检查更新"
+			android:summary="当前版本:V1.3">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/zaxtyson/qmkg"/>
+        </Preference>
+		
+		
+        <Preference
+            android:layout="@layout/preference_item"
+            android:title="给个好评"
+            android:summary="(ಠ_ಠ)求求你点一下好不好">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="market://details?id=com.zaxtyson.qmkg"/>
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

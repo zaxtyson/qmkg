@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#FFFFFF">
+
+	<com.zaxtyson.qmkg.CoverImageView
+		android:layout_width="220dp"
+		android:layout_height="220dp"
+		android:id="@+id/cover_image"
+		android:layout_gravity="center"
+		android:layout_marginTop="50dp"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="150dp"
+		android:text="下载"
+		android:layout_gravity="center"
+		android:id="@+id/down_music"
+		android:background="#4A148C"
+		android:layout_marginTop="80dp"
+		android:textColor="#FFFFFF"
+		android:typeface="sans"/>
+
+</LinearLayout>
+
