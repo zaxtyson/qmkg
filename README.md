@@ -6,6 +6,6 @@
 
 > 食用方法:打开全民k歌，点开音乐播放界面，点右上角分享，选择复制链接，然后打开本软件，点解析就好了。复制全民k歌网页版的链接也是可以的。
 
-![截图1](https://github.com/zaxtyson/qmdg/raw/master/files/1.jpg)
-![截图2](https://github.com/zaxtyson/qmdg/raw/master/files/2.jpg)
-![截图3](https://github.com/zaxtyson/qmdg/raw/master/files/3.jpg)
+![截图1](https://github.com/zaxtyson/qmkg/raw/master/files/1.jpg)
+![截图2](https://github.com/zaxtyson/qmkg/raw/master/files/2.jpg)
+![截图3](https://github.com/zaxtyson/qmkg/raw/master/files/3.jpg)
