@@ -1,6 +1,6 @@
 # 全民k歌导出工具
 
-全民导歌 `V1.2`  [下载](https://github.com/zaxtyson/qmkg/raw/master/files/全民导歌_1.2.apk)
+全民导歌 `V1.3`  [下载](https://github.com/zaxtyson/qmkg/raw/master/files/全民导歌_1.2.apk)
 
 * 修复了上次修复bug时留下的bug
 
